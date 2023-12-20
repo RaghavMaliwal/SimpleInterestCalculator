@@ -1,0 +1,147 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* Styles for the entire page */
+body {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Button styles for the calculate button */
+#calc {
+    height: 50px;
+    width: 200px;
+    align-self: center;
+    border: none;
+    border-radius: 9999px;
+    background-color: #7D0A0A;
+    color: #EAD196;
+    
+    font-size: 25px;
+}
+
+/* Container styles for the main content */
+#con {
+    position: relative;
+    left: 20%;
+    margin-top: 5%;
+    padding: 5%;
+    height: 22rem;
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    border: 5px;
+    border-radius: 5%;
+    background-color:#F3EDC8;
+    color:#7D0A0A;
+}
+
+/* Paragraph styles */
+p {
+    font-size: 2em;
+    margin: 2%;
+}
+
+/* Heading styles */
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color:#7D0A0A;
+    margin-bottom: 3%;
+    color:#7D0A0A;
+    font-size: 3em;
+}
+
+/* Input field styles */
+input {
+    height: 2em;
+    border: none;
+    border-radius: 0px;
+    color: #7D0A0A;
+    background-color:white;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: fit-content;
+    padding: 5px;
+}
+
+/* Toggle button styles */
+#toggle {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 40px;
+    width: 90px;
+    background-color: transparent;
+    border-radius: 9999px;
+    border: none;
+}
+
+/* Styles for the left part of the toggle button */
+.outer--left {
+    height: 40px;
+    width: 90px;
+    background-color: #7D0A0A;
+    border-radius: 9999px;
+    border: none;
+    align-items: center;
+    justify-content: left;
+    display: flex;
+}
+
+/* Styles for the inner circle of the toggle button */
+.inner--left {
+    height: 30px;
+    width: 30px;
+    background-color: #F3EDC8;
+    border-radius: 50%;
+    border: none;
+    margin: 5px;
+}
+
+/* Container styles for additional content (hidden initially) */
+#cone {
+    position: relative;
+    left: 20%;
+    margin-top: 5%;
+    padding: 5%;
+    height: 0px;
+    width: 0px;
+    flex-direction: column;
+    border: 5px;
+    border-radius: 5%;
+    background-color: #F3EDC8;
+    color: #7D0A0A;
+    visibility: hidden;
+    display: none;
+}
+
+/* Styles for the result paragraph */
+#RESULT {
+    text-align: center;
+    text-decoration: none;
+    font-size: 4em;
+}
+
+/* Styles for the reset button */
+#reset {
+    height: 50px;
+    width: 200px;
+    align-self: center;
+    border: none;
+    border-radius: 9999px;
+    background-color: #7D0A0A;
+    color:#F3EDC8;
+    
+    font-size: 25px;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <header>
+        <button id="toggle" onclick="changeMode()">
+            <div class="outer--left">
+                <div class="inner--left">
+                </div>
+            </div>
+        </button>
+    </header>
+
+    <div id="cone">
+        <p id="RESULT">
+            SIMPLE INTEREST IS 
+        </p>
+        <button id="reset" onclick="reset()">RESET</button>
+    </div>
+
+    <div id="con">
+        <h1>SIMPLE INTEREST CALCULATOR</h1>
+        <ul>
+            <p>
+                Enter principal amount : <input type="number" class="principalAmount" placeholder="  In Rupees..." min="0">
+            </p>
+
+            <p>
+                Enter Rate of interest : <input type="number" class="rate" placeholder="  In Percentage..." min="0">
+            </p>
+
+            <p>
+                Enter time : <input type="number" class="timePeriod" placeholder="  In Years..." min="0">
+            </p>
+        </ul>
+
+        <button id="calc" onclick="simpleInterest()">CALCULATE</button>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
